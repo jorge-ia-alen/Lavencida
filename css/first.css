@@ -1,0 +1,86 @@
+:root
+{
+    --red-color: red;
+    --especial-color-1: linear-gradient(#e66465, #9198e5);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size:62.5%;
+    background-image: url('https://aws.traveler.es/prod/designs/v1/assets/1000x662/46571.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+
+/*Zona del Logo*/
+
+.big-logo-zone
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.big-logo--container img
+{
+    width: 70%;
+    height: 100vh;
+    max-width: 700px;
+    max-height: 300px;
+}
+
+/*Zona de Login*/
+
+.login-zone
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Estilos Generales User and Password*/
+
+.Lugar-LL
+{
+    display: flex;
+}
+
+input.Lugar-LL
+{
+    padding: 20px;
+    border-radius: 12px;
+    outline: none;
+    border: 0;
+    margin: 5px 0;
+}
+
+input.Lugar-LL:focus
+{
+    border: none;
+}
+/* 
+input.Lugar-LL 
+{
+
+} */
+
+/*botones de Login y Sign Up*/
+
+.Boton-log
+{
+    background-color: #ff8826;
+    border: white 2px solid;
+    border-radius: 12px;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}
