@@ -1,4 +1,3 @@
-
 /*Quitando los estilo por defecto del navegador*/
 *
 {
@@ -23,12 +22,40 @@ body
   background-attachment: fixed;
 }
 
+/*Caja de todo el Conjunto*/
+.caja-de-login
+{
+  width: 25%;
+  margin: 0 auto;
+}
+
+/*Titulo de Login-Register*/
+
+.PrimerT--Container
+{
+  padding: 30px;
+  background-color: peru;
+  display: flex;
+  position: absolute;
+  left: 556px;
+  top: 58px;
+  border-radius: 15px;
+}
+
+.PrimerT--Container h1
+{
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+
 /*Contenedor de Todo el Formulario*/
 
 .contenedor
 {
-  width: 100%;
-  padding: 15px;
+  padding: 15px 0;
+  position: relative;
 }
 
 /*Formulario*/
@@ -37,28 +64,40 @@ body
 {
   background:#fff;
   margin-top: 150px;
-  padding: 3px;
-}
-
-/*Titulo de Login-Register*/
-
-h1 
-{
+  padding: 10px;
   text-align: center;
-  color: peru;
-  font-size: 40px;
+  border-radius: 15px;
 }
+
+/* Usuario, contraseña, Gmail */
+
+.input-contenedor
+{
+  margin: 10px 0;
+}
+
+/* Estilo del Input de Gmail y demas yerbas */
+
+.input-contenedor input
+{
+  outline: none;
+  padding: 15px 25px;
+  border-radius: 15px;
+  border: rgb(180, 156, 156) 1px solid;
+}
+
+
 
 /*Boton feroz de Registrarse-Loguearse*/
 .button 
 {
   border: none;
-  width: 100%;
   color: white;
   font-size: 20px;
   background:peru;
-  padding: 15px 20px;
-  border-radius: 5px;
+  padding: 10px 17px;
+  margin-bottom: 10px;
+  border-radius: 15px;
   cursor: pointer;
 }
 
@@ -88,7 +127,7 @@ p
 
 
 /*Media Querys*/
-@media(min-width:768px)
+/* @media(min-width:768px)
 {
   .formulario
   {
@@ -97,4 +136,4 @@ p
     margin-top: 150px;
     border-radius: 2%;
   }
-}
+} */
