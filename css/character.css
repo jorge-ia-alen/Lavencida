@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    background-image: url('https://i.pinimg.com/originals/c0/b7/c7/c0b7c782a08ac0290f369c8a339bf73f.jpg');
+    background-position: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
